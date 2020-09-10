@@ -1,0 +1,29 @@
+﻿Tabs,SubTitles,Storage Solutions,Storage Solutions Parents_1,Storage Values,Data Processing,Data Processing Parents,Processing Values,Data Analysis,Data Analysis Parents,Data Analysis Values,Machine Learning,Machine Learning Parents,Machine Learning Values,,,,,,
+Data Management,Data Collection and Storage Solutions,Small Storage,Storage Solutions,29,Big Data Processing,Data Processing,16,Open Source,Data Analysis,11,Development Env.,Machine Learning,48,,,,,,
+Data Processing,"Data Warehousing, Processing and ETL Solutions",Relational DB,Storage Solutions,38,Stream Processing,Data Processing,14,Properietary,Data Analysis,89,Cloud Framework,Machine Learning,21,,,,,,
+Data Analysis,"Business Intelligence, Reporting and Visualization Solutions",NoSQL DB,Storage Solutions,13,SQL on Big Data,Data Processing,22,Qlik,Properietary,10,Deep Learning,Machine Learning,18,,,,,,
+Machine Learning,"Development, Operationalization and Machine Learning Solutions",Distributed FS,Storage Solutions,9,Properietary ,Data Processing,48,Tableau,Properietary,16,MLOps,Machine Learning,13,,,,,,
+Artificial Intelligence,Deep Learning and Artificial Inteligence Solutions,Cloud & VM,Storage Solutions,11,Spark ,Big Data Processing,16,MicroStrategy,Properietary,5,Jupyter Notebook,Development Env.,13,,,,,,
+Big Data,Data Science with Big Data Soltions,Excel,Small Storage,13,Flink,Big Data Processing,0,PowerBI,Properietary,31,Apache Zepplin,Development Env.,5,,,,,,
+,,Access ,Small Storage,9,Storm,Stream Processing,1,Google Analytics,Properietary,7,PyCharm,Development Env.,7,,,,,,
+,,MySQL,Relational DB,10,Kafka,Stream Processing,13,Dash Plotly,Open Source,6,Rstudio,Development Env.,11,,,,,,
+,,MariaDB,Relational DB,3,Hive,SQL on Big Data,13,R Shiny,Open Source,5,Visual Studio Code,Development Env.,12,,,,,,
+,,PostgreSQL,Relational DB,7,Impala,SQL on Big Data,9,SAS,Properietary,2,Databricks,Cloud Framework,7,,,,,,
+,,MicrosoftSQL,Relational DB,12,Informatica,Properietary ,4,SPSS,Properietary,5,Dataiku,Cloud Framework,4,,,,,,
+,,"Oracle 
+Database",Relational DB,11,SSIS,Properietary ,19,Matlab,Properietary,13,Azure Machien Learning,Cloud Framework,8,,,,,,
+,,MongoDB,NoSQL DB,5,Databricks,Properietary ,12,,,,Amazon SageMaker,Cloud Framework,2,,,,,,
+,,"Apache 
+Cassandra",NoSQL DB,3,biGENiUS,Properietary ,13,,,,PyTorch,Deep Learning,3,,,,,,
+,,"Azure 
+CosmosDB",NoSQL DB,4,,,,,,,Tensorflow,Deep Learning,7,,,,,,
+,,"Amazon 
+DynamoDB",NoSQL DB,1,,,,,,,Keras,Deep Learning,6,,,,,,
+,,GPFS,Distributed FS,1,,,,,,,Caffe,Deep Learning,2,,,,,,
+,,LustreFS,Distributed FS,0,,,,,,,Mlflow,MLOps,2,,,,,,
+,,Apache Hadoop,Distributed FS,6,,,,,,,Azure Data Factory,MLOps,6,,,,,,
+,,Delta Lake,Cloud & VM,3,,,,,,,Azure ML Pipeline,MLOps,4,,,,,,
+,,Amazon S3,Cloud & VM,4,,,,,,,AWS SageMaker Pipeline,MLOps,1,,,,,,
+,,Amazon EBS,Cloud & VM,2,,,,,,,,,,,,,,,
+,,"Azure Blob 
+Storage",Cloud & VM,8,,,,,,,,,,,,,,,
