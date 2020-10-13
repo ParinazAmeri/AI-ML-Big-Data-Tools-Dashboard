@@ -41,7 +41,8 @@ fig0.update_layout(
 )
 
 # read the data from prepared file
-df = pd.read_csv('SurveyDashInput.csv')
+# df = pd.read_csv('SurveyDashInput.csv')               # incorrect survey data
+df = pd.read_csv('SurveyDashInput_2.csv')
 
 
 def figure_creator(tabIdentifier):
@@ -72,12 +73,14 @@ def figure_creator(tabIdentifier):
 
 
     fig.update_layout(
-        margin=dict(t=1, l=0, r=0, b=0),
+        # sets the margin around the content in each tab
+        margin=dict(t=30, l=0, r=0, b=20),
         plot_bgcolor=colors['background'],
         paper_bgcolor=colors['background'],
         font_color=colors['text']
     )
     return fig
+
 
 # Styling the tabs
 tabs_styles = {
@@ -85,7 +88,7 @@ tabs_styles = {
 }
 
 tab_style = {
-    'borderBottom': '1px solid #d6d6d6',
+    'borderBottom': '2px solid #d6d6d6',
     'padding': '6px',
     'fontWeight': 'bold'
 }
@@ -139,27 +142,33 @@ app.layout = html.Div([
 def render_content(tab):
     if tab == df['Tabs'][0]:
         return html.Div([
-            html.H1(df['SubTitles'][0], style={'backgroundColor': colors['background'], 'textAlign': 'center', 'color': colors['text']})
+            html.H1(df['SubTitles'][0], style={'backgroundColor': colors['background'], 'textAlign': 'center',
+                                               'color': colors['text'], 'height': '100%'})
         ])
     elif tab == df['Tabs'][1]:
         return html.Div([
-            html.H1(df['SubTitles'][1], style={'backgroundColor': colors['background'], 'textAlign': 'center', 'color': colors['text']})
+            html.H1(df['SubTitles'][1], style={'backgroundColor': colors['background'], 'textAlign': 'center',
+                                               'color': colors['text']})
         ])
     elif tab == df['Tabs'][2]:
         return html.Div([
-            html.H1(df['SubTitles'][2], style={'backgroundColor': colors['background'], 'textAlign': 'center', 'color': colors['text']})
+            html.H1(df['SubTitles'][2], style={'backgroundColor': colors['background'], 'textAlign': 'center',
+                                               'color': colors['text']})
         ])
     elif tab == df['Tabs'][3]:
         return html.Div([
-            html.H1(df['SubTitles'][3], style={'backgroundColor': colors['background'], 'textAlign': 'center', 'color': colors['text']})
+            html.H1(df['SubTitles'][3], style={'backgroundColor': colors['background'], 'textAlign': 'center',
+                                               'color': colors['text']})
         ])
     elif tab == df['Tabs'][4]:
         return html.Div([
-            html.H1(df['SubTitles'][4], style={'backgroundColor': colors['background'], 'textAlign': 'center', 'color': colors['text']})
+            html.H1(df['SubTitles'][4], style={'backgroundColor': colors['background'], 'textAlign': 'center',
+                                               'color': colors['text']})
         ])
     elif tab == df['Tabs'][5]:
         return html.Div([
-            html.H1(df['SubTitles'][5], style={'backgroundColor': colors['background'], 'textAlign': 'center', 'color': colors['text']})
+            html.H1(df['SubTitles'][5], style={'backgroundColor': colors['background'], 'textAlign': 'center',
+                                               'color': colors['text']})
         ])
 
 
